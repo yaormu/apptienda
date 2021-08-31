@@ -1,0 +1,32 @@
+Error:
+Android Studio error “Installed Build Tools revision 31.0.0 is corrupted”
+
+Solution:
+Check the Project code panel, and go to Gradle Scripts --> build.gradle file,
+
+Change 3 places: compileSdkVersion, buildToolsVersion, targetSdkVersion from 31 to 30
+You'll notice a lightbulb hit occurring on modified lines, click and choose sync [to version 30]. The Android Studio will automatically download BuildTool V30 and change project settings.
+-------------------------------------------------------------------------------------------------
+Error:
+Manifest merger failed : Apps targeting Android 12 and higher are required to specify an explicit value for `android:exported` when the corresponding component has an intent filter defined. See https://developer.android.com/guide/topics/manifest/activity-element#exported for details.
+
+Solution:
+https://stackoverflow-com.translate.goog/questions/67654506/manifest-merger-failed-targeting-android-12?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=ajax,sc,elem
+
+
+EN LOS PROYECTOS QUE SE CREEN EN EL ARCHIVO AndroidManifiest.xml buscar activity y agrega android:exported="true"
+
+
+<activity android:name="com.domain.ProblemActivity"  android:exported="true" >
+
+
+
+-------------------------------------------------------------------------------------------------
+Error:
+
+
+Solution:
+
+-------------------------------------------------------------------------------------------------
+
+media/yamid/Backup/projectsAndroidStudio/TenderosApp
