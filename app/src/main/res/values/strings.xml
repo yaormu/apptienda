@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">My Application Tenderos</string>
     <string name="prefs_file">com.namebussine.myapplicationtenderos.PREFERENCE_FILE_KEY</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
