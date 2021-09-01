@@ -1,5 +1,4 @@
 <resources>
     <string name="app_name">My Application Tenderos</string>
-    <string name="email">Email</string>
-    <string name="password">password</string>
+    <string name="prefs_file">com.namebussine.myapplicationtenderos.PREFERENCE_FILE_KEY</string>
 </resources>
